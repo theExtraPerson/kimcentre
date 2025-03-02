@@ -1,0 +1,261 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Kampala International Medical Care - Quality Healthcare Services">
+    
+    <title>KIMC - Kampala International Medical Care</title>
+    
+    <!-- Resource hints for performance -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Stylesheets with integrity attributes for security -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+</head>
+<body>
+    <!-- Header Component -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" aria-label="Main navigation">
+            <div class="container">
+                <!-- Brand Component -->
+                <a href="index.html" class="navbar-brand" aria-label="KIMC Home">
+                    <img src="assets/images/logo.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top me-2" aria-hidden="true">
+                    <span class="brand-highlight">Kampala International</span> Medical Centre
+                </a>
+
+                <!-- Mobile Navigation Toggle -->
+                <button class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarMain"
+                        aria-controls="navbarMain" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links Component -->
+                <div class="collapse navbar-collapse" id="navbarMain">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                               href="#" 
+                               id="servicesDropdown" 
+                               role="button"
+                               data-bs-toggle="dropdown" 
+                               aria-expanded="false">
+                                Our Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a href="pages/services.html#cardiology" class="dropdown-item">Cardiology</a></li>
+                                <li><a href="pages/services.html#neurology" class="dropdown-item">Neurology</a></li>
+                                <li><a href="pages/services.html#physiotherapy" class="dropdown-item">Physiotherapy</a></li>
+                                <li><a href="pages/services.html#orthopedics" class="dropdown-item">Orthopedics</a></li>
+                                <li><a href="pages/services.html#familyplanning" class="dropdown-item">Family Planning</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="pages/services.html" class="dropdown-item">All Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/doctors.html">Our Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pages/contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- CTA Button Component -->
+                    <a href="pages/contact.html#appointment" 
+                       class="btn btn-primary ms-lg-3" 
+                       aria-label="Book an appointment">
+                        Book Appointment
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+    
+        <!-- Hero Section Component -->
+        <section class="hero-section debug-border" aria-labelledby="hero-heading">
+            <div class="container text-center hero-content debug-content">
+                <h1 id="hero-heading" class="display-4 text-white debug-text">Welcome to KIMC</h1>
+                <p class="lead text-white">Quality Healthcare Services</p>
+                <p class="text-white mb-4">At Kampala International Medical Centre, we are dedicated to providing efficient and affordable healthcare to all our patients. Your health is our priority!</p>
+                
+                <div class="button-group">
+                    <a href="tel:+25652508000" 
+                    class="btn btn-primary btn-lg ambulance-btn animate__animated animate__pulse" 
+                    aria-label="Call ambulance service">
+                        Call an Ambulance
+                    </a>
+                    <a href="https://wa.me/+256XXXXXXXXXX" 
+                    class="btn btn-success btn-lg whatsapp-btn animate__animated animate__pulse" 
+                    aria-label="Send WhatsApp message">
+                        Send WhatsApp Message
+                    </a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- About Section Component -->
+        <section class="about-hospital py-5" aria-labelledby="about-heading">
+            <div class="container text-center">
+                <h2 id="about-heading" class="display-4">Who We Are</h2>
+                <p class="lead">At Kampala International Medical Centre, we are dedicated to offering efficient and affordable health care</p>
+                
+                <div class="row mt-5">
+                    <!-- Feature Component: Repeatable pattern -->
+                    <div class="col-md-4">
+                        <article class="feature-card">
+                            <h3>State of the Art Facilities</h3>
+                            <p>Our hospital is equipped with the latest technology for effective diagnosis and treatment</p>
+                        </article>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <article class="feature-card">
+                            <h3>Professional Team</h3>
+                            <p>Our medical team is well equipped, passionate and committed to ensuring that your healthcare needs are catered for in the most human manner</p>
+                        </article>
+                    </div>
+                    
+                    <div class="col-md-4">
+                        <article class="feature-card">
+                            <h3>Emergency Services</h3>
+                            <p>Our flexibility and quick response to cases of emergency is incredible. We boast of a fast 24/7 available ambulance services.</p>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section Component -->
+        <section class="services-section py-5 bg-light" aria-labelledby="services-heading">
+            <div class="container">
+                <h2 id="services-heading" class="text-center mb-5">Our Healthcare Services</h2>
+
+                <div class="row" id="services-container">
+                    <!-- Service cards are generated from a data structure in JavaScript -->
+                    <!-- This implements the Template Method pattern -->
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <footer class="bg-dark text-white py-5" aria-labelledby="footer-heading">
+        <div class="container">
+            <h2 id="footer-heading" class="visually-hidden">Footer</h2>
+            
+            <div class="row">
+                <!-- Company Info Component -->
+                <div class="col-md-4">
+                    <h3>Kampala International Medical Centre</h3>
+                    <nav aria-label="Footer navigation">
+                        <ul class="list-unstyled">
+                            <li><a href="pages/about.html" class="text-white">About Us</a></li>
+                            <li><a href="pages/privacy.html" class="text-white">Privacy Policy</a></li>
+                            <li><a href="pages/terms.html" class="text-white">Terms of Service</a></li>
+                            <li><a href="pages/faq.html" class="text-white">FAQs</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Social Media Component -->
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <ul class="social-icons list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="Facebook">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="Twitter">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Location Component -->
+                <div class="col-md-4">
+                    <h3>Visit us today at:</h3>
+                    <address class="mb-3">
+                        Kansanga Along Ggabba Road, Kampala, Uganda
+                    </address>
+                    <a href="https://www.google.com/maps?q=Kansanga+Ggabba+Road+Kampala+Uganda" 
+                       target="_blank" 
+                       rel="noopener" 
+                       class="text-white">
+                        Get Directions
+                    </a>
+                </div>
+            </div>
+            
+            <!-- Copyright Component -->
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p>&copy; <span id="current-year">2025</span> Kampala International Medical Centre. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts with defer attribute for performance -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+            crossorigin="anonymous" 
+            defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" 
+            integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" 
+            defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/ScrollTrigger.min.js" 
+            integrity="sha512-A64Nik4Ql7/W/PJk2RNOmVyC/Chobn5TY08CiKEX50Sdw+33WTOpPJ/63bfWPl0hxiRv1trPs5prKO8CpA7VNQ==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" 
+            defer></script>
+    
+    <!-- Application modules -->
+    <script src="assets/js/config.js" defer></script>
+    <script src="assets/js/components/serviceCard.js" defer></script>
+    <script src="assets/js/main.js" defer></script>
+</body>
+</html>
