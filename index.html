@@ -24,6 +24,11 @@
           referrerpolicy="no-referrer">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icons?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -98,59 +103,58 @@
     <main>
     
         <!-- Hero Section Component -->
-        <section class="hero-section debug-border" aria-labelledby="hero-heading">
-            <div class="container text-center hero-content debug-content">
-                <h1 id="hero-heading" class="display-4 text-white debug-text">Welcome to KIMC</h1>
-                <p class="lead text-white">Quality Healthcare Services</p>
-                <p class="text-white mb-4">At Kampala International Medical Centre, we are dedicated to providing efficient and affordable healthcare to all our patients. Your health is our priority!</p>
+                <!-- Replace the hero section with this -->
+        <section class="hero-section" aria-labelledby="hero-heading">
+            <div class="container text-center hero-content">
+                <h1 id="hero-heading" class="display-4 text-white animate__animated animate__fadeIn">Welcome to KIMC</h1>
+                <p class="lead text-white animate__animated animate__fadeIn animate__delay-1s">Quality Healthcare Services</p>
+                <p class="text-white mb-4 animate__animated animate__fadeIn animate__delay-2s">At Kampala International Medical Centre, we are dedicated to providing efficient and affordable healthcare to all our patients. Your health is our priority!</p>
                 
                 <div class="button-group">
                     <a href="tel:+25652508000" 
-                    class="btn btn-primary btn-lg ambulance-btn animate__animated animate__pulse" 
+                    class="btn btn-primary btn-lg ambulance-btn animate__animated animate__pulse animate__infinite" 
                     aria-label="Call ambulance service">
-                        Call an Ambulance
+                        <i class="fas fa-ambulance me-2"></i> Call an Ambulance
                     </a>
                     <a href="https://wa.me/+256XXXXXXXXXX" 
-                    class="btn btn-success btn-lg whatsapp-btn animate__animated animate__pulse" 
+                    class="btn btn-success btn-lg whatsapp-btn animate__animated animate__fadeIn animate__delay-3s" 
                     aria-label="Send WhatsApp message">
-                        Send WhatsApp Message
+                        <i class="fab fa-whatsapp me-2"></i> Send WhatsApp Message
                     </a>
                 </div>
             </div>
         </section>
+
 
 
         <!-- About Section Component -->
-        <section class="about-hospital py-5" aria-labelledby="about-heading">
-            <div class="container text-center">
-                <h2 id="about-heading" class="display-4">Who We Are</h2>
-                <p class="lead">At Kampala International Medical Centre, we are dedicated to offering efficient and affordable health care</p>
-                
-                <div class="row mt-5">
-                    <!-- Feature Component: Repeatable pattern -->
-                    <div class="col-md-4">
-                        <article class="feature-card">
-                            <h3>State of the Art Facilities</h3>
-                            <p>Our hospital is equipped with the latest technology for effective diagnosis and treatment</p>
-                        </article>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <article class="feature-card">
-                            <h3>Professional Team</h3>
-                            <p>Our medical team is well equipped, passionate and committed to ensuring that your healthcare needs are catered for in the most human manner</p>
-                        </article>
-                    </div>
-                    
-                    <div class="col-md-4">
-                        <article class="feature-card">
-                            <h3>Emergency Services</h3>
-                            <p>Our flexibility and quick response to cases of emergency is incredible. We boast of a fast 24/7 available ambulance services.</p>
-                        </article>
-                    </div>
-                </div>
+        <!-- Replace the feature cards with these -->
+        <div class="row">
+            <div class="col-md-4">
+                <article class="feature-card animate__animated animate__fadeInUp">
+                    <i class="fas fa-hospital fa-3x mb-3 text-primary"></i>
+                    <h3>State of the Art Facilities</h3>
+                    <p>Our hospital is equipped with the latest technology for effective diagnosis and treatment</p>
+                </article>
             </div>
-        </section>
+    
+            <div class="col-md-4">
+                <article class="feature-card animate__animated animate__fadeInUp animate__delay-1s">
+                    <i class="fas fa-user-md fa-3x mb-3 text-primary"></i>
+                    <h3>Professional Team</h3>
+                    <p>Our medical team is well equipped, passionate and committed to ensuring that your healthcare needs are catered for in the most human manner</p>
+                </article>
+            </div>
+    
+            <div class="col-md-4">
+                <article class="feature-card animate__animated animate__fadeInUp animate__delay-2s">
+                    <i class="fas fa-heartbeat fa-3x mb-3 text-primary"></i>
+                    <h3>Emergency Services</h3>
+                    <p>Our flexibility and quick response to cases of emergency is incredible. We boast of a fast 24/7 available ambulance services.</p>
+                </article>
+            </div>
+        </div>
+
 
         <!-- Services Section Component -->
         <section class="services-section py-5 bg-light" aria-labelledby="services-heading">
@@ -163,7 +167,103 @@
                 </div>
             </div>
         </section>
+
+        <!-- Add this before the footer -->
+        <section class="testimonials-section py-5" aria-labelledby="testimonials-heading">
+            <div class="container">
+                <h2 id="testimonials-heading" class="text-center mb-5">What Our Patients Say</h2>
+                
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-card p-4 bg-white shadow rounded">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://randomuser.me/api/portraits/women/32.jpg" alt="" class="rounded-circle me-3" width="60" height="60">
+                                <div>
+                                    <h5 class="mb-0">Sarah Johnson</h5>
+                                    <small class="text-muted">Patient since 2021</small>
+                                </div>
+                            </div>
+                            <p class="mb-0">
+                                <i class="fas fa-quote-left text-primary me-2 opacity-50"></i>
+                                The care I received at KIMC was exceptional. The doctors were attentive and the facilities are world-class.
+                            </p>
+                            <div class="mt-3 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-card p-4 bg-white shadow rounded">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://randomuser.me/api/portraits/men/44.jpg" alt="" class="rounded-circle me-3" width="60" height="60">
+                                <div>
+                                    <h5 class="mb-0">Michael Ouma</h5>
+                                    <small class="text-muted">Patient since 2020</small>
+                                </div>
+                            </div>
+                            <p class="mb-0">
+                                <i class="fas fa-quote-left text-primary me-2 opacity-50"></i>
+                                I'm grateful for the quick emergency response when my son needed urgent care. The staff was professional and caring.
+                            </p>
+                            <div class="mt-3 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="testimonial-card p-4 bg-white shadow rounded">
+                            <div class="d-flex align-items-center mb-3">
+                                <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="" class="rounded-circle me-3" width="60" height="60">
+                                <div>
+                                    <h5 class="mb-0">Grace Nakato</h5>
+                                    <small class="text-muted">Patient since 2022</small>
+                                </div>
+                            </div>
+                            <p class="mb-0">
+                                <i class="fas fa-quote-left text-primary me-2 opacity-50"></i>
+                                The physiotherapy department at KIMC helped me recover from a serious injury. I highly recommend their services.
+                            </p>
+                            <div class="mt-3 text-warning">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>     
     </main>
+
+    <!-- Add this before the footer in index.html -->
+    <section class="contact-cta-section py-5 bg-light">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0">
+                    <h2>Have Questions or Need Assistance?</h2>
+                    <p class="lead mb-0">Our friendly team is here to help. Contact us today for any inquiries or to schedule an appointment.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="pages/contact.html" class="btn btn-primary btn-lg">
+                        <i class="fas fa-envelope me-2"></i> Contact Us
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Footer Component -->
     <footer class="bg-dark text-white py-5" aria-labelledby="footer-heading">
@@ -177,6 +277,7 @@
                     <nav aria-label="Footer navigation">
                         <ul class="list-unstyled">
                             <li><a href="pages/about.html" class="text-white">About Us</a></li>
+                            <li><a href="pages/contact.html" class="text-white">Contact Us</a></li>
                             <li><a href="pages/privacy.html" class="text-white">Privacy Policy</a></li>
                             <li><a href="pages/terms.html" class="text-white">Terms of Service</a></li>
                             <li><a href="pages/faq.html" class="text-white">FAQs</a></li>
@@ -223,7 +324,25 @@
                        class="text-white">
                         Get Directions
                     </a>
+
+                    <!-- Add this to the Location Component in the footer -->
+                    <div class="contact-info mt-3">
+                        <p class="mb-2">
+                            <i class="fas fa-phone-alt me-2 text-primary"></i>
+                            <a href="tel:+25652508000">+256 525 08000</a>
+                        </p>
+                        <p class="mb-2">
+                            <i class="fas fa-envelope me-2 text-primary"></i>
+                            <a href="mailto:info@kimc.ug">info@kimc.ug</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-clock me-2 text-primary"></i>
+                            Open 24/7 for emergencies
+                        </p>
+                    </div>
+
                 </div>
+
             </div>
             
             <!-- Copyright Component -->
@@ -257,5 +376,6 @@
     <script src="assets/js/config.js" defer></script>
     <script src="assets/js/components/serviceCard.js" defer></script>
     <script src="assets/js/main.js" defer></script>
+    <script src="assets/js/animation.js" defer></script>
 </body>
 </html>
