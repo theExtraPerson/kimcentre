@@ -1,0 +1,520 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Learn about Kampala International Medical Centre's history, mission, vision, and core healthcare services">
+    
+    <title>About Us - Kampala International Medical Centre</title>
+    
+    <!-- Resource hints for performance -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Stylesheets with integrity attributes for security -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="../assets/css/about.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icons?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Additional CSS for about page -->
+   </head>
+<body>
+    <!-- Header Component -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" aria-label="Main navigation">
+            <div class="container">
+                <!-- Brand Component -->
+                <a href="../index.html" class="navbar-brand" aria-label="KIMC Home">
+                    <img src="../assets/images/logo.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top me-2" aria-hidden="true">
+                    <span class="brand-highlight">Kampala International</span> Medical Centre
+                </a>
+
+                <!-- Mobile Navigation Toggle -->
+                <button class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarMain"
+                        aria-controls="navbarMain" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links Component -->
+                <div class="collapse navbar-collapse" id="navbarMain">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" 
+                               href="#" 
+                               id="servicesDropdown" 
+                               role="button"
+                               data-bs-toggle="dropdown" 
+                               aria-expanded="false">
+                                Our Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a href="services.html#genmedicine" class="dropdown-item">General Medicine</a></li>
+                                <li><a href="services.html#homebased" class="dropdown-item">Home-based Care</a></li>
+                                <li><a href="services.html#phychosocio" class="dropdown-item">Psycho-Social Support</a></li>
+                                <li><a href="services.html#ultrasound" class="dropdown-item">Ultra-Sound Scan & Diagnostics</a></li>
+                                <li><a href="services.html#emergency" class="dropdown-item">Emergency Services</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="services.html" class="dropdown-item">All Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="about.html" aria-current="page">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="doctors.html">Our Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- CTA Button Component -->
+                    <a href="contact.html#appointment" 
+                       class="btn btn-primary ms-lg-3" 
+                       aria-label="Book an appointment">
+                        Book Appointment
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header bg-primary text-white py-5 mb-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <h1 class="display-4">About KIMC</h1>
+                        <p class="lead">Dedicated to excellence in healthcare since 2005</p>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="../index.html" class="text-white">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">About Us</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <img src="../assets/images/about-header.jpg" alt="KIMC hospital building" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Introduction -->
+        <section class="about-section py-5">
+            <div class="container">
+                <div class="row align-items-center mb-5">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img src="../assets/images/dotorsatkimc.JPG" alt="Medical professionals at KIMC" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6">
+                        <h2>Welcome to Kampala International Medical Centre</h2>
+                        <p class="lead">Providing compassionate care and medical excellence to the community of Kampala and beyond.</p>
+                        <p>Established in 2005, Kampala International Medical Centre (KIMC) has grown from a small clinic to a comprehensive healthcare facility serving thousands of patients annually. Our state-of-the-art facility combines modern medical technology with a patient-centered approach to deliver exceptional healthcare services.</p>
+                        <p>At KIMC, we believe that quality healthcare should be accessible to all. Our team of experienced healthcare professionals is committed to providing personalized care that addresses the unique needs of each patient. Whether you're seeking preventive care, treatment for an acute condition, or management of a chronic illness, we're here to support your health journey every step of the way.</p>
+                    </div>
+                </div>
+
+                <div class="row mt-5">
+                    <div class="col-lg-8 mx-auto">
+                        <div class="history-timeline">
+                            <h3 class="text-center mb-4">Our Journey</h3>
+                            
+                            <div class="timeline-item">
+                                <h4>2005: The Beginning</h4>
+                                <p>KIMC was founded as a small outpatient clinic with just five staff members, dedicated to serving the local community with basic healthcare services.</p>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4>2010: Expansion of Services</h4>
+                                <p>We expanded our facility to include specialized departments for maternal health, pediatrics, and emergency care, significantly increasing our capacity to serve patients.</p>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4>2015: Technological Advancement</h4>
+                                <p>KIMC embraced digital health technology, implementing electronic medical records and telemedicine services to enhance patient care and accessibility.</p>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4>2020: Comprehensive Care Center</h4>
+                                <p>We completed a major expansion, adding new departments including dental care, mental health services, and advanced diagnostic imaging, transforming KIMC into a comprehensive healthcare center.</p>
+                            </div>
+                            
+                            <div class="timeline-item">
+                                <h4>Today: Looking to the Future</h4>
+                                <p>KIMC continues to grow and evolve, constantly seeking innovative ways to improve patient care and expand our services to meet the changing healthcare needs of our community.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Vision and Mission -->
+        <section class="vision-mission-section py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Our Vision and Mission</h2>
+                
+                <div class="row">
+                    <div class="col-md-6 mb-4">
+                        <div class="vision-mission-card card h-100 shadow-sm">
+                            <div class="card-header bg-primary text-white">
+                                <h3 class="h4 mb-0">Our Vision</h3>
+                            </div>
+                            <div class="card-body p-4">
+                                <p class="card-text">To be the leading healthcare provider in East Africa, recognized for excellence in patient care, innovation in medical practice, and commitment to community well-being.</p>
+                                <p class="card-text mb-0">We envision a future where quality healthcare is accessible to all, preventive care is prioritized, and our community enjoys optimal health and wellness.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-6 mb-4">
+                        <div class="vision-mission-card card h-100 shadow-sm">
+                            <div class="card-header bg-success text-white">
+                                <h3 class="h4 mb-0">Our Mission</h3>
+                            </div>
+                            <div class="card-body p-4">
+                                <p class="card-text">To deliver compassionate, high-quality healthcare services that improve the lives of our patients and communities through:</p>
+                                <ul>
+                                    <li>Patient-centered care that respects individual needs and preferences</li>
+                                    <li>Evidence-based medical practices and continuous quality improvement</li>
+                                    <li>Accessible and affordable healthcare services for all</li>
+                                    <li>Community engagement and health education initiatives</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Values -->
+        <section class="core-values-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Our Core Values</h2>
+                
+                <div class="row">
+                    <div class="col-md-3 mb-4">
+                        <div class="text-center">
+                            <div class="value-icon bg-primary-subtle mx-auto">
+                                <i class="fas fa-heart fa-2x text-primary"></i>
+                            </div>
+                            <h3 class="h5">Compassion</h3>
+                            <p>We treat every patient with kindness, empathy, and respect, recognizing their unique needs and concerns.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 mb-4">
+                        <div class="text-center">
+                            <div class="value-icon bg-success-subtle mx-auto">
+                                <i class="fas fa-award fa-2x text-success"></i>
+                            </div>
+                            <h3 class="h5">Excellence</h3>
+                            <p>We strive for the highest standards in medical care, continuously improving our skills and services.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 mb-4">
+                        <div class="text-center">
+                            <div class="value-icon bg-info-subtle mx-auto">
+                                <i class="fas fa-handshake fa-2x text-info"></i>
+                            </div>
+                            <h3 class="h5">Integrity</h3>
+                            <p>We act with honesty, transparency, and ethical responsibility in all aspects of patient care.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-3 mb-4">
+                        <div class="text-center">
+                            <div class="value-icon bg-warning-subtle mx-auto">
+                                <i class="fas fa-lightbulb fa-2x text-warning"></i>
+                            </div>
+                            <h3 class="h5">Innovation</h3>
+                            <p>We embrace new technologies and approaches to enhance healthcare delivery and patient outcomes.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Services -->
+        <section class="core-services-section py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Our Core Services</h2>
+                <p class="text-center lead mb-5">At KIMC, we focus on providing comprehensive healthcare through our specialized core services that address the diverse needs of our patients.</p>
+                
+                <div class="row">
+                    <!-- Digital Health -->
+                    <div class="col-lg-4 mb-4">
+                        <div class="core-service-card card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-laptop-medical fa-3x text-primary"></i>
+                                </div>
+                                <h3 class="card-title h4 text-center">Digital Health</h3>
+                                <p class="card-text">Our digital health services leverage cutting-edge technology to enhance patient care and accessibility. We understand that modern healthcare extends beyond the walls of our facility, which is why we've invested in comprehensive digital solutions.</p>
+                                
+                                <h4 class="h5 mt-4">Key Features:</h4>
+                                <ul>
+                                    <li>Telemedicine consultations with our specialists</li>
+                                    <li>Secure electronic medical records accessible to patients</li>
+                                    <li>Mobile health monitoring for chronic conditions</li>
+                                    <li>Online appointment scheduling and prescription refills</li>
+                                    <li>Remote patient monitoring for post-discharge care</li>
+                                </ul>
+                                
+                                <p>Our digital health platform ensures that quality healthcare is accessible to all patients, regardless of location or mobility constraints, while maintaining the highest standards of care and data security.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Dental Care -->
+                    <div class="col-lg-4 mb-4">
+                        <div class="core-service-card card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-tooth fa-3x text-primary"></i>
+                                </div>
+                                <h3 class="card-title h4 text-center">Dental Care</h3>
+                                <p class="card-text">Our comprehensive dental care department is equipped with state-of-the-art technology and staffed by experienced dental professionals. We recognize that oral health is integral to overall wellbeing and offer a full spectrum of dental services.</p>
+                                
+                                <h4 class="h5 mt-4">Services Include:</h4>
+                                <ul>
+                                    <li>Preventive dentistry (cleanings, check-ups, fluoride treatments)</li>
+                                    <li>Restorative procedures (fillings, crowns, bridges)</li>
+                                    <li>Cosmetic dentistry (whitening, veneers, smile makeovers)</li>
+                                    <li>Pediatric dental care</li>
+                                    <li>Oral surgery and implant dentistry</li>
+                                    <li>Emergency dental services</li>
+                                </ul>
+                                
+                                <p>Our dental team focuses on patient comfort and education, ensuring that each visit contributes to long-term oral health and a confident smile.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Mental/Psycho-Social Support -->
+                    <div class="col-lg-4 mb-4">
+                        <div class="core-service-card card h-100 shadow-sm">
+                            <div class="card-body p-4">
+                                <div class="text-center mb-3">
+                                    <i class="fas fa-brain fa-3x text-primary"></i>
+                                </div>
+                                <h3 class="card-title h4 text-center">Mental & Psycho-Social Support</h3>
+                                <p class="card-text">Our mental health and psycho-social support services address the emotional, psychological, and social aspects of health. We believe in a holistic approach to healthcare that recognizes the profound connection between mental and physical wellbeing.</p>
+                                
+                                <h4 class="h5 mt-4">Our Approach:</h4>
+                                <ul>
+                                    <li>Individual and group counseling sessions</li>
+                                    <li>Psychiatric evaluation and medication management</li>
+                                    <li>Cognitive behavioral therapy and other evidence-based treatments</li>
+                                    <li>Stress management and resilience building</li>
+                                    <li>Support for trauma, grief, and life transitions</li>
+                                    <li>Community mental health education and outreach</li>
+                                </ul>
+                                
+                                <p>Our compassionate mental health team creates a safe, stigma-free environment where patients can address their mental health needs with dignity and receive personalized care for optimal emotional wellbeing.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="text-center mt-4">
+                    <a href="services.html" class="btn btn-primary">
+                        <i class="fas fa-plus-circle me-2"></i> Explore All Our Services
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Partner Brands -->
+        <section class="partners-section py-5">
+            <div class="container">
+                <h2 class="text-center mb-5">Our Partners</h2>
+                <p class="text-center lead mb-5">We collaborate with leading healthcare organizations and brands to enhance our services and provide the best care for our patients.</p>
+                
+                <div class="row align-items-center">
+                    <div class="col-6 col-md-3 mb-4 text-center">
+                        <img src="../assets/images/partners/partner1.png" alt="Ministry of Health Uganda" class="partner-logo img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 text-center">
+                        <img src="../assets/images/partners/partner2.png" alt="World Health Organization" class="partner-logo img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 text-center">
+                        <img src="../assets/images/partners/partner3.png" alt="Makerere University Medical School" class="partner-logo img-fluid">
+                    </div>
+                    <div class="col-6 col-md-3 mb-4 text-center">
+                        <img src="../assets/images/partners/partner4.png" alt="Uganda Medical Association" class="partner-logo img-fluid">
+                    </div>
+                </div>
+                
+                <div class="row mt-4">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <p>Our strategic partnerships enable us to stay at the forefront of medical innovation, participate in research initiatives, and provide training opportunities for healthcare professionals. Through these collaborations, we continuously enhance our capabilities and contribute to the advancement of healthcare in Uganda.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Team Overview -->
+        <section class="team-overview py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <h2>Our Healthcare Team</h2>
+                        <p class="lead">Behind every successful treatment is a dedicated team of healthcare professionals.</p>
+                        <p>At KIMC, we take pride in our diverse team of medical experts, nurses, technicians, and support staff who work together to deliver exceptional patient care. Our professionals are not only highly qualified in their respective fields but also share a common commitment to compassionate, patient-centered care.</p>
+                        <p>Our team regularly participates in continuing education and professional development to stay updated with the latest advancements in medical science and healthcare practices.</p>
+                        <a href="doctors.html" class="btn btn-primary mt-3">
+                            <i class="fas fa-user-md me-2"></i> Meet Our Doctors
+                        </a>
+                    </div>
+                    <div class="col-lg-6">
+                        <img src="../assets/images/medical-team.jpg" alt="KIMC medical team" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2>Experience Quality Healthcare at KIMC</h2>
+                        <p class="lead mb-4">We're committed to your health and wellbeing. Schedule an appointment today to experience our comprehensive care.</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="contact.html#appointment" class="btn btn-primary btn-lg">
+                                <i class="fas fa-calendar-check me-2"></i> Book Appointment
+                            </a>
+                            <a href="contact.html" class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-envelope me-2"></i> Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <footer class="bg-dark text-white py-5" aria-labelledby="footer-heading">
+        <div class="container">
+            <h2 id="footer-heading" class="visually-hidden">Footer</h2>
+            
+            <div class="row">
+                <!-- Company Info Component -->
+                <div class="col-md-4">
+                    <h3>Kampala International Medical Centre</h3>
+                    <nav aria-label="Footer navigation">
+                        <ul class="list-unstyled">
+                            <li><a href="about.html" class="text-white">About Us</a></li>
+                            <li><a href="contact.html" class="text-white">Contact Us</a></li>
+                            <li><a href="privacy.html" class="text-white">Privacy Policy</a></li>
+                            <li><a href="terms.html" class="text-white">Terms of Service</a></li>
+                            <li><a href="faq.html" class="text-white">FAQs</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Social Media Component -->
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <ul class="social-icons list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="Facebook">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="Twitter">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Location Component -->
+                <div class="col-md-4">
+                    <h3>Visit us today at:</h3>
+                    <address class="mb-3">
+                        Kansanga Along Ggabba Road, Kampala, Uganda
+                    </address>
+                    <a href="https://www.google.com/maps?q=Kansanga+Ggabba+Road+Kampala+Uganda" 
+                       target="_blank" 
+                       rel="noopener" 
+                       class="text-white">
+                        Get Directions
+                    </a>
+
+                    <div class="contact-info mt-3">
+                        <p class="mb-2">
+                            <i class="fas fa-phone-alt me-2 text-primary"></i>
+                            <a href="tel:+25652508000">+256 525 08000</a>
+                        </p>
+                        <p class="mb-2">
+                            <i class="fas fa-envelope me-2 text-primary"></i>
+                            <a href="mailto:info@kimc.ug">info@kimc.ug</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-clock me-2 text-primary"></i>
+                            Open 24/7 for emergencies
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright Component -->
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p>&copy; <span id="current-year">2025</span> Kampala International Medical Centre. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts with defer attribute for performance -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+            crossorigin="anonymous" 
+            defer></script>
+    
+    <script>
+        // Update copyright year
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>

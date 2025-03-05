@@ -11,7 +11,7 @@
 }
 
 .navbar {
-    background-color:var(--primary-color);
+    background-color:var(--background-color);
     box-shadow: 0 5px 12px var(--primary-color);
     padding: 10px 0;
     transition: all 0.3s ease;
@@ -326,9 +326,15 @@ h1, h2, h3, p {
 }
 
 .services-section {
-    background-color: var(--background-color);
+    /* background-color: var(--background-color); */
     overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('../images/contactus.jpg') no-repeat center center/cover;
 }
+
+/* .services-section .page-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+                url('../images/servicesbg.jpg') no-repeat center center/cover; */
 
 .services-section h2 {
     margin-bottom: 3rem;

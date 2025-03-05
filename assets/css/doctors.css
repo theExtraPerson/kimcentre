@@ -1,0 +1,58 @@
+.doctor-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.doctor-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1) !important;
+}
+
+.doctor-img-container {
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px 8px 0 0;
+}
+
+.doctor-img-container img {
+    transition: transform 0.5s ease;
+    height: 300px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.doctor-card:hover .doctor-img-container img {
+    transform: scale(1.05);
+}
+
+.doctor-speciality {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(30, 136, 229, 0.85);
+    color: white;
+    padding: 8px 15px;
+    font-weight: 500;
+}
+
+.availability-badge {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.day-available {
+    background-color: #e3f2fd;
+    color: #1565c0;
+    border: 1px solid #bbdefb;
+}
+
+.doctor-contact {
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid #e0e0e0;
+}

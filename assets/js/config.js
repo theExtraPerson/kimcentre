@@ -12,13 +12,13 @@ const KIMCConfig = {
         },
         {
             id: 'homebased',
-            title: 'Home-based care',
+            title: 'Home-based Care',
             description: 'Consult with doctors from the comfort of your home through our secure virtual appointment system',
             icon: 'fa-video'
         },
         {
             id: 'pschosocio',
-            title: 'Psycho-Social Care',
+            title: 'Psycho-Social Support',
             description: 'Comprehensive programs designed to help you maintain a healthy lifestyle for you and your family',
             icon: 'fa-heartbeat'
         },

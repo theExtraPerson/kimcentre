@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Comprehensive healthcare services at Kampala International Medical Centre">
+    
+    <title>Our Services - Kampala International Medical Centre</title>
+    
+    <!-- Resource hints for performance -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net/npm">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    
+    <!-- Stylesheets with integrity attributes for security -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" 
+          rel="stylesheet" 
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" 
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" 
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" 
+          crossorigin="anonymous" 
+          referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!-- for google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/icons?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header Component -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light fixed-top" aria-label="Main navigation">
+            <div class="container">
+                <!-- Brand Component -->
+                <a href="../index.html" class="navbar-brand" aria-label="KIMC Home">
+                    <img src="../assets/images/logo.jpg" alt="" width="40" height="40" class="d-inline-block align-text-top me-2" aria-hidden="true">
+                    <span class="brand-highlight">Kampala International</span> Medical Centre
+                </a>
+
+                <!-- Mobile Navigation Toggle -->
+                <button class="navbar-toggler" 
+                        type="button" 
+                        data-bs-toggle="collapse" 
+                        data-bs-target="#navbarMain"
+                        aria-controls="navbarMain" 
+                        aria-expanded="false" 
+                        aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Navigation Links Component -->
+                <div class="collapse navbar-collapse" id="navbarMain">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a href="../index.html" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle active" 
+                               href="#" 
+                               id="servicesDropdown" 
+                               role="button"
+                               data-bs-toggle="dropdown" 
+                               aria-expanded="false"
+                               aria-current="page">
+                                Our Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
+                                <li><a href="#genmedicine" class="dropdown-item">General Medicine</a></li>
+                                <li><a href="#homebased" class="dropdown-item">Home-based Care</a></li>
+                                <li><a href="#phychosocio" class="dropdown-item">Psycho-Social Support</a></li>
+                                <li><a href="#ultrasound" class="dropdown-item">Ultra-Sound Scan & Diagnostics</a></li>
+                                <li><a href="#emergency" class="dropdown-item">Emergency Services</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a href="#" class="dropdown-item">All Services</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="doctors.html">Our Doctors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                        </li>
+                    </ul>
+                    
+                    <!-- CTA Button Component -->
+                    <a href="contact.html#appointment" 
+                       class="btn btn-primary ms-lg-3" 
+                       aria-label="Book an appointment">
+                        Book Appointment
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Page Header -->
+        <section class="page-header bg-primary text-white py-5 mb-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-8">
+                        <h1 class="display-4">Our Healthcare Services</h1>
+                        <p class="lead">Comprehensive medical care tailored to your needs</p>
+                        <nav aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                                <li class="breadcrumb-item"><a href="../index.html" class="text-white">Home</a></li>
+                                <li class="breadcrumb-item active" aria-current="page">Services</li>
+                            </ol>
+                        </nav>
+                    </div>
+                    <div class="col-lg-4 d-none d-lg-block">
+                        <img src="../assets/images/doctrwork.jpg" alt="Medical professionals at work" class="img-fluid rounded shadow">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Overview -->
+        <section class="services-overview py-5">
+            <div class="container">
+                <div class="row mb-5">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2>Comprehensive Healthcare Solutions</h2>
+                        <p class="lead">At Kampala International Medical Centre, we offer a wide range of medical services designed to meet the diverse healthcare needs of our community. Our team of experienced healthcare professionals is committed to providing high-quality, patient-centered care using state-of-the-art equipment and facilities.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- General Medicine Service -->
+        <section id="genmedicine" class="service-detail py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img src="../assets/images/consulting.jpg" alt="General medicine consultation" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-content">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-user-md fa-3x text-primary"></i>
+                            </div>
+                            <h2>General Medicine</h2>
+                            <p class="lead">Comprehensive healthcare for patients of all ages</p>
+                            <p>Our general medicine department provides primary healthcare services for patients of all ages. We focus on preventive care, diagnosis, and treatment of various medical conditions, as well as management of chronic diseases.</p>
+                            
+                            <h4 class="mt-4">Services Include:</h4>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Routine check-ups and physical examinations</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Diagnosis and treatment of common illnesses</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Management of chronic conditions like diabetes and hypertension</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Immunizations and vaccinations</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Health education and counseling</li>
+                            </ul>
+                            
+                            <a href="contact.html#appointment" class="btn btn-primary mt-4">
+                                <i class="fas fa-calendar-check me-2"></i> Book an Appointment
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Home-based Care Service -->
+        <section id="homebased" class="service-detail py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                        <img src="../assets/images/homebasedcare.jpg" alt="Home-based medical care" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="service-content">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-home fa-3x text-primary"></i>
+                            </div>
+                            <h2>Home-based Care</h2>
+                            <p class="lead">Professional medical care in the comfort of your home</p>
+                            <p>Our home-based care services bring quality healthcare to patients who are unable to visit our facility due to mobility issues, chronic conditions, or post-surgical recovery needs. We provide personalized care plans delivered by trained healthcare professionals.</p>
+                            
+                            <h4 class="mt-4">Services Include:</h4>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Skilled nursing care</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Physical therapy and rehabilitation</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Medication management</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Wound care and dressing changes</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Palliative and end-of-life care</li>
+                            </ul>
+                            
+                            <a href="contact.html#appointment" class="btn btn-primary mt-4">
+                                <i class="fas fa-calendar-check me-2"></i> Request Home Care
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Psycho-Social Support Service -->
+        <section id="phychosocio" class="service-detail py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img src="../assets/images/psychosocial.jpg" alt="Psycho-social support session" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-content">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-brain fa-3x text-primary"></i>
+                            </div>
+                            <h2>Psycho-Social Support</h2>
+                            <p class="lead">Comprehensive mental health and emotional wellbeing services</p>
+                            <p>Our psycho-social support services address the mental, emotional, and social aspects of health. We provide counseling, therapy, and support for individuals dealing with mental health conditions, emotional challenges, or difficult life transitions.</p>
+                            
+                            <h4 class="mt-4">Services Include:</h4>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Individual and group counseling</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Stress management and coping strategies</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Depression and anxiety treatment</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Trauma counseling and PTSD support</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Family therapy and relationship counseling</li>
+                            </ul>
+                            
+                            <a href="contact.html#appointment" class="btn btn-primary mt-4">
+                                <i class="fas fa-calendar-check me-2"></i> Schedule a Consultation
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ultra-Sound Scan & Diagnostics Service -->
+        <section id="ultrasound" class="service-detail py-5 bg-light">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 order-lg-2 mb-4 mb-lg-0">
+                        <img src="../assets/images/ultrasound.jpg" alt="Ultrasound diagnostic procedure" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6 order-lg-1">
+                        <div class="service-content">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-heartbeat fa-3x text-primary"></i>
+                            </div>
+                            <h2>Ultra-Sound Scan & Diagnostics</h2>
+                            <p class="lead">Advanced imaging and diagnostic services</p>
+                            <p>Our diagnostic department is equipped with state-of-the-art ultrasound technology to provide accurate imaging for diagnosis and monitoring of various conditions. Our experienced technicians and radiologists ensure high-quality images and precise interpretations.</p>
+                            
+                            <h4 class="mt-4">Services Include:</h4>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Obstetric ultrasound (pregnancy scans)</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Abdominal ultrasound</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Pelvic ultrasound</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Cardiac ultrasound (echocardiogram)</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Vascular ultrasound</li>
+                            </ul>
+                            
+                            <a href="contact.html#appointment" class="btn btn-primary mt-4">
+                                <i class="fas fa-calendar-check me-2"></i> Book a Scan
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Emergency Services -->
+        <section id="emergency" class="service-detail py-5">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6 mb-4 mb-lg-0">
+                        <img src="../assets/images/emergency.JPG" alt="Emergency medical services" class="img-fluid rounded shadow">
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="service-content">
+                            <div class="service-icon mb-3">
+                                <i class="fas fa-ambulance fa-3x text-primary"></i>
+                            </div>
+                            <h2>Emergency Services</h2>
+                            <p class="lead">24/7 emergency care when you need it most</p>
+                            <p>Our emergency department is staffed around the clock to provide immediate care for critical and life-threatening conditions. We have a rapid response ambulance service and a team of emergency medicine specialists ready to handle any medical emergency.</p>
+                            
+                            <h4 class="mt-4">Services Include:</h4>
+                            <ul class="service-features">
+                                <li><i class="fas fa-check-circle text-success me-2"></i> 24/7 emergency room services</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Rapid response ambulance service</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Trauma care</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Critical care and stabilization</li>
+                                <li><i class="fas fa-check-circle text-success me-2"></i> Emergency surgeries</li>
+                            </ul>
+                            
+                            <div class="emergency-contact-box mt-4 p-3 bg-danger text-white rounded">
+                                <h4>For Emergencies:</h4>
+                                <p class="lead mb-2">Call our 24/7 Emergency Hotline</p>
+                                <a href="tel:+25652508000" class="btn btn-light text-danger">
+                                    <i class="fas fa-phone-alt me-2"></i> +256 525 08000
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Additional Services -->
+        <section class="additional-services py-5 bg-light">
+            <div class="container">
+                <h2 class="text-center mb-5">Additional Medical Services</h2>
+                
+                <div class="row">
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Laboratory Services</h3>
+                                <p class="card-text">Comprehensive laboratory testing including blood work, urinalysis, microbiology, and more.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Pharmacy Services</h3>
+                                <p class="card-text">On-site pharmacy providing prescription medications, over-the-counter drugs, and medication counseling.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Maternal & Child Health</h3>
+                                <p class="card-text">Prenatal care, delivery services, postnatal care, and pediatric services for children of all ages.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Vaccination Services</h3>
+                                <p class="card-text">Routine immunizations for children and adults, including travel vaccines and seasonal flu shots.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Physiotherapy</h3>
+                                <p class="card-text">Rehabilitation services for injuries, surgeries, and chronic conditions to restore mobility and function.</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="card h-100 shadow-sm">
+                            <div class="card-body">
+                                <h3 class="h5 card-title">Nutritional Counseling</h3>
+                                <p class="card-text">Personalized dietary advice for weight management, chronic disease management, and overall wellness.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 mx-auto text-center">
+                        <h2>Ready to Experience Quality Healthcare?</h2>
+                        <p class="lead mb-4">Book an appointment today or contact us to learn more about our services.</p>
+                        <div class="d-flex justify-content-center gap-3">
+                            <a href="contact.html#appointment" class="btn btn-primary btn-lg">
+                                <i class="fas fa-calendar-check me-2"></i> Book Appointment
+                            </a>
+                            <a href="contact.html" class="btn btn-outline-primary btn-lg">
+                                <i class="fas fa-envelope me-2"></i> Contact Us
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Component -->
+    <footer class="bg-dark text-white py-5" aria-labelledby="footer-heading">
+        <div class="container">
+            <h2 id="footer-heading" class="visually-hidden">Footer</h2>
+            
+            <div class="row">
+                <!-- Company Info Component -->
+                <div class="col-md-4">
+                    <h3>Kampala International Medical Centre</h3>
+                    <nav aria-label="Footer navigation">
+                        <ul class="list-unstyled">
+                            <li><a href="about.html" class="text-white">About Us</a></li>
+                            <li><a href="contact.html" class="text-white">Contact Us</a></li>
+                            <li><a href="privacy.html" class="text-white">Privacy Policy</a></li>
+                            <li><a href="terms.html" class="text-white">Terms of Service</a></li>
+                            <li><a href="faq.html" class="text-white">FAQs</a></li>
+                        </ul>
+                    </nav>
+                </div>
+
+                <!-- Social Media Component -->
+                <div class="col-md-4">
+                    <h3>Follow Us</h3>
+                    <ul class="social-icons list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://facebook.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="Facebook">
+                                <i class="fab fa-facebook-f" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="Twitter">
+                                <i class="fab fa-twitter" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://instagram.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="Instagram">
+                                <i class="fab fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://linkedin.com" target="_blank" rel="noopener" class="text-white me-3" aria-label="LinkedIn">
+                                <i class="fab fa-linkedin-in" aria-hidden="true"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- Location Component -->
+                <div class="col-md-4">
+                    <h3>Visit us today at:</h3>
+                    <address class="mb-3">
+                        Kansanga Along Ggabba Road, Kampala, Uganda
+                    </address>
+                    <a href="https://www.google.com/maps?q=Kansanga+Ggabba+Road+Kampala+Uganda" 
+                       target="_blank" 
+                       rel="noopener" 
+                       class="text-white">
+                        Get Directions
+                    </a>
+
+                    <div class="contact-info mt-3">
+                        <p class="mb-2">
+                            <i class="fas fa-phone-alt me-2 text-primary"></i>
+                            <a href="tel:+25652508000">+256 525 08000</a>
+                        </p>
+                        <p class="mb-2">
+                            <i class="fas fa-envelope me-2 text-primary"></i>
+                            <a href="mailto:info@kimc.ug">info@kimc.ug</a>
+                        </p>
+                        <p>
+                            <i class="fas fa-clock me-2 text-primary"></i>
+                            Open 24/7 for emergencies
+                        </p>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Copyright Component -->
+            <div class="row mt-4">
+                <div class="col text-center">
+                    <p>&copy; <span id="current-year">2025</span> Kampala International Medical Centre. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts with defer attribute for performance -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" 
+            integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" 
+            crossorigin="anonymous" 
+            defer></script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js" 
+            integrity="sha512-f8mwTB+Bs8a5c46DEm7HQLcJuHMBaH/UFlcgyetMqqkvTcYg4g5VXsYR71b3qC82lZytjNYvBj2pf0VekA9/FQ==" 
+            crossorigin="anonymous" 
+            referrerpolicy="no-referrer" 
+            defer></script>
+    
+    

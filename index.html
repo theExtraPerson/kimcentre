@@ -69,11 +69,11 @@
                                 Our Services
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="servicesDropdown">
-                                <li><a href="pages/services.html#cardiology" class="dropdown-item">Cardiology</a></li>
-                                <li><a href="pages/services.html#neurology" class="dropdown-item">Neurology</a></li>
-                                <li><a href="pages/services.html#physiotherapy" class="dropdown-item">Physiotherapy</a></li>
-                                <li><a href="pages/services.html#orthopedics" class="dropdown-item">Orthopedics</a></li>
-                                <li><a href="pages/services.html#familyplanning" class="dropdown-item">Family Planning</a></li>
+                                <li><a href="pages/services.html#genmedicine" class="dropdown-item">General Medicine</a></li>
+                                <li><a href="pages/services.html#homebased" class="dropdown-item">Home-based Care</a></li>
+                                <li><a href="pages/services.html#phychosocio" class="dropdown-item">Psycho-Social Support</a></li>
+                                <li><a href="pages/services.html#ultrasound" class="dropdown-item">Ultra-Sound Scan & Diagnostics</a></li>
+                                <li><a href="pages/services.html#emergency" class="dropdown-item">Emergency Services</a></li>
                                 <li><hr class="dropdown-divider"></li>
                                 <li><a href="pages/services.html" class="dropdown-item">All Services</a></li>
                             </ul>
@@ -130,6 +130,8 @@
         <!-- About Section Component -->
         <!-- Replace the feature cards with these -->
         <div class="row">
+            <h2 id="services-heading" class="text-center mb-5">What We Offer</h2>
+
             <div class="col-md-4">
                 <article class="feature-card animate__animated animate__fadeInUp">
                     <i class="fas fa-hospital fa-3x mb-3 text-primary"></i>
@@ -157,16 +159,74 @@
 
 
         <!-- Services Section Component -->
+        <!-- Services Section Component -->
         <section class="services-section py-5 bg-light" aria-labelledby="services-heading">
             <div class="container">
                 <h2 id="services-heading" class="text-center mb-5">Our Healthcare Services</h2>
 
-                <div class="row" id="services-container">
-                    <!-- Service cards are generated from a data structure in JavaScript -->
-                    <!-- This implements the Template Method pattern -->
+                <div class="row" id="featured-services-container">
+                    <!-- Only 3 featured services will be displayed here -->
+                    <div class="col-md-4 mb-4">
+                        <div class="service-card">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body text-center p-4">
+                                    <div class="service-icon mb-3">
+                                        <i class="fas fa-user-md fa-3x text-primary" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="card-title h4">General Medicine</h3>
+                                    <p class="card-text">Comprehensive healthcare for all ages, focusing on preventive care and managing chronic conditions.</p>
+                                    <a href="pages/services.html#genmedicine" class="btn btn-outline-primary mt-3">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="service-card">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body text-center p-4">
+                                    <div class="service-icon mb-3">
+                                        <i class="fas fa-ambulance fa-3x text-primary" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="card-title h4">Emergency Services</h3>
+                                    <p class="card-text">24/7 emergency care with rapid response ambulance services for critical situations requiring immediate medical attention.</p>
+                                    <a href="pages/services.html#emergency" class="btn btn-outline-primary mt-3">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-md-4 mb-4">
+                        <div class="service-card">
+                            <div class="card h-100 shadow-sm">
+                                <div class="card-body text-center p-4">
+                                    <div class="service-icon mb-3">
+                                        <i class="fas fa-home fa-3x text-primary" aria-hidden="true"></i>
+                                    </div>
+                                    <h3 class="card-title h4">Home-based Care</h3>
+                                    <p class="card-text">Professional medical care delivered in the comfort of your home, including nursing services and rehabilitation.</p>
+                                    <a href="pages/services.html#homebased" class="btn btn-outline-primary mt-3">
+                                        Learn More
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- View More Services Button -->
+                <div class="text-center mt-4">
+                    <a href="pages/services.html" class="btn btn-primary btn-lg">
+                        <i class="fas fa-plus-circle me-2"></i> View All Services
+                    </a>
                 </div>
             </div>
         </section>
+
 
         <!-- Add this before the footer -->
         <section class="testimonials-section py-5" aria-labelledby="testimonials-heading">
