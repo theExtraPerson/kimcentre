@@ -123,8 +123,7 @@ body {
 }
 
 .hero-section {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                     url(../images/hero-bg.jpg);
+    background-image: url(../images/hero-bg2.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -332,9 +331,10 @@ h1, h2, h3, p {
                 url('../images/contactus.jpg') no-repeat center center/cover;
 }
 
-/* .services-section .page-header {
+.page-header {
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-                url('../images/servicesbg.jpg') no-repeat center center/cover; */
+                url('../images/servicesbg.jpg') no-repeat center center/cover;
+}
 
 .services-section h2 {
     margin-bottom: 3rem;
